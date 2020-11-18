@@ -50,7 +50,7 @@
             </template>
             <el-menu-item-group>
               <el-menu-item index="4-1">智能停车</el-menu-item>
-              <el-menu-item index="4-2">智能开门</el-menu-item>
+              <router-link tag="span" to="/Zhinkm"><el-menu-item index="4-2">智能开门</el-menu-item></router-link>
             </el-menu-item-group>
           </el-submenu>
 
