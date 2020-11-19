@@ -9,7 +9,9 @@ import Renkxx from './views/Renkxx.vue'
 import Shebxx from './views/Shebxx.vue'
 import Dianzdt from './views/Dianzdt.vue'
 import Jiaoffx from './views/Jiaoffx.vue'
+import Wufj from './views/Wujf.vue'
 import Zhinkm from './views/Zhinkm.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -62,6 +64,10 @@ export default new Router({
     {
       path:'/Zhinkm',
       component: ()=> import('./views/Zhinkm.vue')
+    },
+    {
+      path:'/Wujf',
+      component: ()=> import('./views/Wujf.vue')
     }
   ]
 })

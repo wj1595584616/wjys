@@ -23,8 +23,8 @@
               <span>智慧物业</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="2-1">物业缴费</el-menu-item>
-              <router-link to="/Yuyue" tag="p"
+              <router-link to="/Wujf" tag="span"><el-menu-item index="2-1">物业缴费</el-menu-item></router-link>
+              <router-link to="/Yuyue" tag="span"
                 ><el-menu-item index="2-2">缴费查询</el-menu-item></router-link
               >
               <el-menu-item index="2-3">故障报修</el-menu-item>
